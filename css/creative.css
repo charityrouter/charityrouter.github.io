@@ -211,6 +211,11 @@ header .header-content .header-content-inner p {
     color: #f05f40;
 }
 
+header .header-content .header-content-inner p.presentedBy {
+        font-size: 12px;
+	    font-weight: bold;
+    }
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
@@ -237,6 +242,11 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 25px;
         font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }
+	
+	header .header-content .header-content-inner p.presentedBy {
+        font-size: 15px;
+	    font-weight: bold;
     }
 }
 
