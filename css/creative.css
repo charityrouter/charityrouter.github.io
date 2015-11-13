@@ -12,6 +12,7 @@ body {
 
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    webkit-tap-highlight-color: #222;
 }
 
 hr {
@@ -52,6 +53,8 @@ p {
 }
 
 .bg-primary {
+    width: 1440px;
+    height:806px;
     background-color: #f05f40;
 }
 
@@ -478,8 +481,4 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #222;
 }
