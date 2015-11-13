@@ -213,7 +213,6 @@ header .header-content .header-content-inner p {
 
 header .header-content .header-content-inner p.presentedBy {
         font-size: 12px;
-	    font-weight: bold;
     }
 
 @media(min-width:768px) {
@@ -246,7 +245,6 @@ header .header-content .header-content-inner p.presentedBy {
 	
 	header .header-content .header-content-inner p.presentedBy {
         font-size: 15px;
-	    font-weight: bold;
     }
 }
 
