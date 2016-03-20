@@ -57,6 +57,7 @@ h6 {
 p {
     margin-bottom: 20px;
     font-size: 14px;
+    font-family: Helvetica, sans-serif;
     line-height: 1.5;
 }
 
@@ -187,7 +188,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #f05f40;
-    background-image: url(../img/header.png);
+    background-image: url(../img/portfolio/Map.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
