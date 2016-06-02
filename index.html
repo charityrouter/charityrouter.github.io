@@ -43,7 +43,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<style>
+@media (min-width: 992px) {
+  .rotate-45-md {
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+</style>
 </head>
 
 <body id="page-top">
@@ -358,7 +368,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                        <hr style="
+                        <hr class="rotate-45-md" style="
                         border-top: 1px; 
                         solid #000;
                         display: block;
@@ -367,12 +377,7 @@
                         margin-left: auto;
                         margin-right: auto;
                         border-style: inset;
-                        border-width: 1px;
-                        -moz-transform: rotate(-45deg);  
-                        -o-transform: rotate(-45deg);  
-                        -webkit-transform: rotate(-45deg);  
-                        -ms-transform: rotate(-45deg);  
-                        transform: rotate(-45deg);" 
+                        border-width: 1px;"
                         width="60%"
                         height="60%">
                 </div>
